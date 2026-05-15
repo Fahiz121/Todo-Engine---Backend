@@ -9,4 +9,4 @@ public sealed record CreatePortfolioCommand(
     string Description,
     bool IsFeatured,
     List<string> ImagePaths
-) : ICommand<Guid>; // Returns the created Portfolio Id
+) : ICommand<Guid>;
